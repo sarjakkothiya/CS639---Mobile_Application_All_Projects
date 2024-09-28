@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sarjakkumar</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Biography</string>
+    <string name="second_fragment_label">Hobbies</string>
+    <string name="next">Hobbies</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        My name is Sarjakkumar kothiya,  and I am an aspiring software developer. Currently, I am pursuing my Master of Science in Computer Science at Pace University. I have completed two semesters and have established a solid foundation in various computer science principles and technologies. Over the past year, I have engaged in impactful projects such as Sentiment Analysis on Movie Reviews and AQI Analysis and Prediction. Through these endeavors, I have honed my skills in data analysis, machine learning, and data visualization.\n\n
+        I completed my bachelor in Information Technology at Gujarat Technological University. During my four-year Bachelor program, I delved into a comprehensive array of computer science subjects. Notably, my Final Year Project involved the development of a web application named Online Repairing, where I had the opportunity to exhibit leadership, communication, and soft skills. Additionally, I have one year of valuable experience as a Web Developer, where I acquired proficiency in diverse technologies and frameworks including ReactJS, NodeJS, React Native, PHP, among others.
+    </string>
+    <string name="about">About</string>
+    <string name="contact_content">Email: sk10091n@pace.edu</string>
+    <string name="contact_title">Contact</string>
+</resources>

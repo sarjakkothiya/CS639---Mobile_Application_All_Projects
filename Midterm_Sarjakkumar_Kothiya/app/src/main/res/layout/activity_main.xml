@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cupsOutput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="-303dp"
+        android:layout_marginEnd="58dp"
+        android:text="Midterm Project"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/litersInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="234dp"
+        android:hint="Enter Liters here"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/litersInput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="99dp"
+        android:text="Convert into cups" />
+
+    <TextView
+        android:id="@+id/cupsOutput"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/convertButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="22dp"
+        android:text="Result will appear here"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/authorDetailTextView"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="56dp"
+        android:text="Author: Sarjakkumar Kothiya \n \n Guided by: Dr. Christelle Scarff"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
